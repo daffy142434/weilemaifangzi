@@ -1,0 +1,13 @@
+{
+  "code":200,
+  "msg":"",
+  "data": {
+    "data": [
+      {
+        "asin": "B073NBLG5N",
+        "stationCode": "uk"
+      }
+    ],
+    "totalRecord": 100
+  }
+}

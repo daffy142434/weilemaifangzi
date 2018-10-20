@@ -1,0 +1,10 @@
+{
+  "code": 200,
+  "data": {
+    "shopDetection": 1,
+    "emailDetection": 2,
+    "onlineProductsDetection": 0,
+    "orderSkuDetection": 0
+  },
+  "message": ""
+}

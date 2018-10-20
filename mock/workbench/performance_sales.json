@@ -1,0 +1,89 @@
+{
+    "code": 200,
+    "msg": "操作成功",
+    "data": [{
+        "date": "2017-01",
+        "salesAmount": 0.0,
+        "averageSales": null,
+        "averagePrice": null
+    },
+    {
+        "date": "2017-02",
+        "salesAmount": 0.0,
+        "averageSales": null,
+        "averagePrice": null
+    },
+    {
+        "date": "2017-03",
+        "salesAmount": 0.0,
+        "averageSales": null,
+        "averagePrice": null
+    },
+    {
+        "date": "2017-04",
+        "salesAmount": 0.0,
+        "averageSales": null,
+        "averagePrice": null
+    },
+    {
+        "date": "2017-05",
+        "salesAmount": 0.0,
+        "averageSales": null,
+        "averagePrice": null
+    },
+    {
+        "date": "2017-06",
+        "salesAmount": 0.0,
+        "averageSales": null,
+        "averagePrice": null
+    },
+    {
+        "date": "2017-07",
+        "salesAmount": 0.0,
+        "averageSales": null,
+        "averagePrice": null
+    },
+    {
+        "date": "2017-08",
+        "salesAmount": 0.0,
+        "averageSales": null,
+        "averagePrice": null
+    },
+    {
+        "date": "2017-09",
+        "salesAmount": 0.0,
+        "averageSales": null,
+        "averagePrice": null
+    },
+    {
+        "date": "2017-10",
+        "salesAmount": 143.3748,
+        "averageSales": null,
+        "averagePrice": null
+    },
+    {
+        "date": "2017-11",
+        "salesAmount": 2835.874,
+        "averageSales": null,
+        "averagePrice": null
+    },
+    {
+        "date": "2017-12",
+        "salesAmount": 115048.7252,
+        "averageSales": null,
+        "averagePrice": null
+    },
+    {
+        "date": "2018-01",
+        "salesAmount": 112442.0016,
+        "averageSales": null,
+        "averagePrice": null
+    },
+    {
+        "date": "2018-02",
+        "salesAmount": 0.0,
+        "averageSales": null,
+        "averagePrice": null
+    }],
+    "formToken": "ZmM0NWY5NjMwZjQ0M2Q3ZDJkZTBhNWU3NjBlMWY1MDU="
+}

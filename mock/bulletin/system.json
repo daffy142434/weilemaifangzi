@@ -1,0 +1,22 @@
+{
+  "code": 200,
+  "message": "",
+  "data": {
+    "data": [
+      {
+        "bulletinContent": "fsdfwerfdwfds fdsfsdfew sdfew sdcdsf ewf wef ",
+        "bulletinTime": "2018-01-18",
+        "bulletinId": 0
+      },
+      {
+        "bulletinContent": "fsdfwerfdwfds fdsfsdfew sdfew sdcdsf ewf wef ",
+        "bulletinTime": "2018-01-18",
+        "bulletinId": 1
+      }
+    ],
+    "index": 1,
+    "totalRecord": 100,
+    "size": 10,
+    "total": 10
+  }
+}

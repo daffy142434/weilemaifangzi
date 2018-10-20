@@ -1,0 +1,54 @@
+{
+  "code": 200,
+  "msg":"",
+  "data": {
+    "totalRecord": 4,
+    "data": [
+      {
+        "id": 1,
+        "storageName": "仓库1",
+        "storageNo": "1111",
+        "storageAddress": "仓库1地址",
+        "storageCreateDate": 1519889684675,
+        "countryCode": "cn",
+        "countryName": "中国",
+        "storageType": 1,
+        "status": 1
+      },
+      {
+        "id": 2,
+        "storageName": "仓库2",
+        "storageNo": "1111",
+        "storageAddress": "仓库1地址",
+        "storageCreateDate": 1519889684675,
+        "countryCode": "cn",
+        "countryName": "中国",
+        "storageType": 2,
+        "status": 0
+      },
+      {
+        "id": 3,
+        "storageName": "仓库3",
+        "storageNo": "1111",
+        "storageAddress": "仓库1地址",
+        "storageCreateDate": 1519889684675,
+        "countryCode": "cn",
+        "countryName": "中国",
+        "storageType": 1,
+        "status": 1
+      },
+      {
+        "id": 4,
+        "storageName": "仓库4",
+        "storageNo": "1111",
+        "storageAddress": "仓库1地址",
+        "storageCreateDate": 1519889684675,
+        "countryCode": "cn",
+        "countryName": "中国",
+        "storageType": 2,
+        "status": 0
+      }
+    ]
+  },
+  "formToken":"YTdiNjliMmYzYmMwOGQ0NWFiODg5NGM3Y2MzNzdhN2Q="
+}

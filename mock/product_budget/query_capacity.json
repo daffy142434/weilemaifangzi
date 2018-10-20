@@ -1,0 +1,11 @@
+{
+  "code": 200,
+  "msg": "",
+  "data": {
+    "major": "major",
+    "itemCount": 1,
+    "itemCountNoise": 2,
+    "brandCount": 3,
+    "pageNum": 4
+  }
+}

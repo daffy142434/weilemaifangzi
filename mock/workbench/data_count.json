@@ -1,0 +1,14 @@
+{
+  "code": 200,
+  "message": "",
+  "data": {
+    "shopNum": 237,
+    "totalOrderNum": 23203,
+    "waitProcessOrderNum": 23,
+    "waitShipOrderNum": 2323,
+    "completeOrderNum": 10234,
+    "totalProductNum": 134834,
+    "exceptionProductNum": 238,
+    "stockWarnProductNum": 234
+  }
+}

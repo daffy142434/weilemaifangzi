@@ -1,0 +1,46 @@
+{
+  "code":200,
+  "msg":"",
+  "data": [
+    {
+      "value": 0,
+      "count": 0,
+      "price": 0,
+      "priceRate": 0,
+      "priceUnit": 0,
+      "itemCount": 0,
+      "stationCode": "us",
+      "asin": "DFDFF-DFD-DFF"
+    },
+    {
+      "value": 1,
+      "count": 2999,
+      "price": 1,
+      "priceRate": 1,
+      "priceUnit": 1,
+      "itemCount": 1,
+      "stationCode": "us",
+      "asin": "DFDFF-DFD-DFF"
+    },
+    {
+      "value": 2,
+      "count": 120003,
+      "price": 2,
+      "priceRate": 2,
+      "priceUnit": 2,
+      "itemCount": 2,
+      "stationCode": "us",
+      "asin": "DFDFF-DFD-DFF"
+    },
+    {
+      "value": 3,
+      "count": 3,
+      "price": 3,
+      "priceRate": 3,
+      "priceUnit": 3,
+      "itemCount": 3,
+      "stationCode": "us",
+      "asin": "DFDFF-DFD-DFF"
+    }
+  ]
+}

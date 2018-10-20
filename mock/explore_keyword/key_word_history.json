@@ -1,0 +1,133 @@
+{
+  "code":200,
+  "msg":"",
+  "data": [
+    {
+      "keyWord": "keyWord1",
+      "st1": "st1-1,st1-2",
+      "st2": null,
+      "st3": "st3-1,st3-3",
+      "st4": "st4-1,st4-2",
+      "st5": "st5-1,st5-2",
+      "allWord": "st1-1,st1-2,st2-1,st2-2,st3-1,st3-3,st4-1,st4-2,st5-1,st5-2",
+      "allWordList": [
+        "st1-1",
+        "st1-2",
+        "st2-1",
+        "st2-2",
+        "st3-1",
+        "st3-3",
+        "st4-1",
+        "st4-2",
+        "st5-1",
+        "st5-2"
+      ]
+    },
+    {
+      "keyWord": "keyWord2",
+      "st1": "st2-1,st1-2",
+      "st2": "st2-1,st2-2",
+      "st3": "st3-1,st3-3",
+      "st4": "st4-1,st4-2",
+      "st5": "st5-1,st5-2",
+      "allWord": "st1-1,st1-2,st2-1,st2-2,st3-1,st3-3,st4-1,st4-2,st5-1,st5-2",
+      "allWordList": [
+        "st1-1",
+        "st1-2",
+        "st2-1",
+        "st2-2",
+        "st3-1",
+        "st3-3",
+        "st4-1",
+        "st4-2",
+        "st5-1",
+        "st5-2"
+      ]
+    },
+    {
+      "keyWord": "keyWord3",
+      "st1": "st3-1,st1-2",
+      "st2": "st2-1,st2-2",
+      "st3": "st3-1,st3-3",
+      "st4": "st4-1,st4-2",
+      "st5": "st5-1,st5-2",
+      "allWord": "st1-1,st1-2,st2-1,st2-2,st3-1,st3-3,st4-1,st4-2,st5-1,st5-2",
+      "allWordList": [
+        "st1-1",
+        "st1-2",
+        "st2-1",
+        "st2-2",
+        "st3-1",
+        "st3-3",
+        "st4-1",
+        "st4-2",
+        "st5-1",
+        "st5-2"
+      ]
+    },
+    {
+      "keyWord": "keyWord4",
+      "st1": "st4-1,st1-2",
+      "st2": "st2-1,st2-2",
+      "st3": "st3-1,st3-3",
+      "st4": "st4-1,st4-2",
+      "st5": "st5-1,st5-2",
+      "allWord": "st1-1,st1-2,st2-1,st2-2,st3-1,st3-3,st4-1,st4-2,st5-1,st5-2",
+      "allWordList": [
+        "st1-1",
+        "st1-2",
+        "st2-1",
+        "st2-2",
+        "st3-1",
+        "st3-3",
+        "st4-1",
+        "st4-2",
+        "st5-1",
+        "st5-2"
+      ]
+    },
+    {
+      "keyWord": "keyWord5",
+      "st1": "st5-1,st1-2",
+      "st2": "st2-1,st2-2",
+      "st3": "st3-1,st3-3",
+      "st4": "st4-1,st4-2",
+      "st5": "st5-1,st5-2",
+      "allWord": "st1-1,st1-2,st2-1,st2-2,st3-1,st3-3,st4-1,st4-2,st5-1,st5-2",
+      "allWordList": [
+        "st1-1",
+        "st1-2",
+        "st2-1",
+        "st2-2",
+        "st3-1",
+        "st3-3",
+        "st4-1",
+        "st4-2",
+        "st5-1",
+        "st5-2"
+      ]
+    },
+    {
+      "keyWord": "keyWord6",
+      "st1": "st1-1,st1-2",
+      "st2": "st2-1,st2-2",
+      "st3": "st3-1,st3-3",
+      "st4": "st4-1,st4-2",
+      "st5": "st5-1,st5-2",
+      "allWord": "st1-1,st1-2,st2-1,st2-2,st3-1,st3-3,st4-1,st4-2,st5-1,st5-2",
+      "allWordList": [
+        "st1-1",
+        "st1-2",
+        "st2-1",
+        "st2-2",
+        "st3-1",
+        "st3-3",
+        "st4-1",
+        "st4-2",
+        "st5-1",
+        "st5-2"
+      ]
+    }
+  ],
+  "formToken":"ODkxZDFkZGYwODUzZjE2M2YyYjBiYjgzMzZiODY1YzU="
+}

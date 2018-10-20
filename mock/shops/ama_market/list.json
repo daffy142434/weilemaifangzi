@@ -1,0 +1,236 @@
+{
+    "code": 200,
+    "msg": "操作成功",
+    "data": [{
+        "id": 1,
+        "marketName": "加拿大",
+        "marketId": "A2EUQ1WTGCTBG2",
+        "language": "En",
+        "serviceUrl": "https://mws.amazonservices.ca",
+        "stationCode": "ca",
+        "domainSuffix": "ca",
+        "timeZoneCode": "GMT-5:00",
+        "stationCharset": "Cp1252",
+        "updateFields": {
+            "marketId": true,
+            "timeZoneCode": true,
+            "stationCode": true,
+            "marketName": true,
+            "domainSuffix": true,
+            "stationCharset": true,
+            "language": true,
+            "serviceUrl": true
+        }
+    },
+    {
+        "id": 2,
+        "marketName": "美国",
+        "marketId": "ATVPDKIKX0DER",
+        "language": "En",
+        "serviceUrl": "https://mws.amazonservices.com",
+        "stationCode": "us",
+        "domainSuffix": "com",
+        "timeZoneCode": "GMT-8:00",
+        "stationCharset": "Cp1252",
+        "updateFields": {
+            "marketId": true,
+            "timeZoneCode": true,
+            "stationCode": true,
+            "marketName": true,
+            "domainSuffix": true,
+            "stationCharset": true,
+            "language": true,
+            "serviceUrl": true
+        }
+    },
+    {
+        "id": 4,
+        "marketName": "德国",
+        "marketId": "A1PA6795UKMFR9",
+        "language": "De",
+        "serviceUrl": "https://mws-eu.amazonservices.com",
+        "stationCode": "de",
+        "domainSuffix": "de",
+        "timeZoneCode": "GMT+1:00",
+        "stationCharset": "Cp1252",
+        "updateFields": {
+            "marketId": true,
+            "timeZoneCode": true,
+            "stationCode": true,
+            "marketName": true,
+            "domainSuffix": true,
+            "stationCharset": true,
+            "language": true,
+            "serviceUrl": true
+        }
+    },
+    {
+        "id": 5,
+        "marketName": "法国",
+        "marketId": "A13V1IB3VIYZZH",
+        "language": "Fr",
+        "serviceUrl": "https://mws-eu.amazonservices.com",
+        "stationCode": "fr",
+        "domainSuffix": "fr",
+        "timeZoneCode": "GMT+1:00",
+        "stationCharset": "Cp1252",
+        "updateFields": {
+            "marketId": true,
+            "timeZoneCode": true,
+            "stationCode": true,
+            "marketName": true,
+            "domainSuffix": true,
+            "stationCharset": true,
+            "language": true,
+            "serviceUrl": true
+        }
+    },
+    {
+        "id": 6,
+        "marketName": "西班牙",
+        "marketId": "A1RKKUPIHCS9HS",
+        "language": "Es",
+        "serviceUrl": "https://mws-eu.amazonservices.com",
+        "stationCode": "es",
+        "domainSuffix": "es",
+        "timeZoneCode": "GMT+1:00",
+        "stationCharset": "Cp1252",
+        "updateFields": {
+            "marketId": true,
+            "timeZoneCode": true,
+            "stationCode": true,
+            "marketName": true,
+            "domainSuffix": true,
+            "stationCharset": true,
+            "language": true,
+            "serviceUrl": true
+        }
+    },
+    {
+        "id": 7,
+        "marketName": "意大利",
+        "marketId": "APJ6JRA9NG5V4",
+        "language": "It",
+        "serviceUrl": "https://mws-eu.amazonservices.com",
+        "stationCode": "it",
+        "domainSuffix": "it",
+        "timeZoneCode": "GMT+1:00",
+        "stationCharset": "Cp1252",
+        "updateFields": {
+            "marketId": true,
+            "timeZoneCode": true,
+            "stationCode": true,
+            "marketName": true,
+            "domainSuffix": true,
+            "stationCharset": true,
+            "language": true,
+            "serviceUrl": true
+        }
+    },
+    {
+        "id": 8,
+        "marketName": "英国",
+        "marketId": "A1F83G8C2ARO7P",
+        "language": "En",
+        "serviceUrl": "https://mws-eu.amazonservices.com",
+        "stationCode": "uk",
+        "domainSuffix": "co.uk",
+        "timeZoneCode": "GMT+0:00",
+        "stationCharset": "Cp1252",
+        "updateFields": {
+            "marketId": true,
+            "timeZoneCode": true,
+            "stationCode": true,
+            "marketName": true,
+            "domainSuffix": true,
+            "stationCharset": true,
+            "language": true,
+            "serviceUrl": true
+        }
+    },
+    {
+        "id": 9,
+        "marketName": "日本",
+        "marketId": "A1VC38T7YXB528",
+        "language": "Ja",
+        "serviceUrl": "https://mws.amazonservices.jp",
+        "stationCode": "jp",
+        "domainSuffix": "co.jp",
+        "timeZoneCode": "GMT+9:00",
+        "stationCharset": "Windows-31J",
+        "updateFields": {
+            "marketId": true,
+            "timeZoneCode": true,
+            "stationCode": true,
+            "marketName": true,
+            "domainSuffix": true,
+            "stationCharset": true,
+            "language": true,
+            "serviceUrl": true
+        }
+    },
+    {
+        "id": 10,
+        "marketName": "中国",
+        "marketId": "AAHKV2X7AFYLW",
+        "language": "Zh",
+        "serviceUrl": "https://mws.amazonservices.com.cn",
+        "stationCode": "cn",
+        "domainSuffix": "cn",
+        "timeZoneCode": "GMT+8:00",
+        "stationCharset": "UTF-8",
+        "updateFields": {
+            "marketId": true,
+            "timeZoneCode": true,
+            "stationCode": true,
+            "marketName": true,
+            "domainSuffix": true,
+            "stationCharset": true,
+            "language": true,
+            "serviceUrl": true
+        }
+    },
+    {
+        "id": 11,
+        "marketName": "印度",
+        "marketId": "A21TJRUUN4KGV",
+        "language": "IN",
+        "serviceUrl": "https://mws.amazonservices.in",
+        "stationCode": "in",
+        "domainSuffix": "in",
+        "timeZoneCode": "GMT+5:00",
+        "stationCharset": "UTF-8",
+        "updateFields": {
+            "marketId": true,
+            "timeZoneCode": true,
+            "stationCode": true,
+            "marketName": true,
+            "domainSuffix": true,
+            "stationCharset": true,
+            "language": true,
+            "serviceUrl": true
+        }
+    },
+    {
+        "id": 12,
+        "marketName": "墨西哥",
+        "marketId": "A1AM78C64UM0Y8",
+        "language": "En",
+        "serviceUrl": "https://mws.amazonservices.com",
+        "stationCode": "us",
+        "domainSuffix": "com.mx",
+        "timeZoneCode": "GMT-6:00",
+        "stationCharset": "Cp1252",
+        "updateFields": {
+            "marketId": true,
+            "timeZoneCode": true,
+            "stationCode": true,
+            "marketName": true,
+            "domainSuffix": true,
+            "stationCharset": true,
+            "language": true,
+            "serviceUrl": true
+        }
+    }],
+    "formToken": "ZmI2YThlY2VmOGM0OWQyOTAzNjAwZjE1ZDQwNDZmZjY="
+}

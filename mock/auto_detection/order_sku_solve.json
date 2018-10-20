@@ -1,0 +1,19 @@
+{
+  "code":200,
+  "msg":"",
+  "data": [
+    {
+      "shopId": 6,
+      "sku": "DF-fDF-DF"
+    },
+    {
+      "shopId": 6,
+      "sku": "DF-fDF-DA"
+    },
+    {
+      "shopId": 3,
+      "sku": "DF-fDF-DR"
+    }
+  ],
+  "formToken":"NTJkMTRhZDIxZjBhNDUzZDBlMTkzMWM5ZTIxNGZmNDc="
+}

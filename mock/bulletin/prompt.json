@@ -1,0 +1,24 @@
+{
+  "code": 200,
+  "message": "",
+  "data": [
+    {
+      "bulletinTitle": "title1",
+      "bulletinContent": "fsdfwerfdwfds fdsfsdfew sdfew sdcdsf ewf wef ",
+      "bulletinTime": "2018-01-18",
+      "id": 0
+    },
+    {
+      "bulletinTitle": "title2",
+      "bulletinContent": "fsdfwerfdwfds fdsfsdfew sdfew sdcdsf ewf wef ",
+      "bulletinTime": "2018-01-18",
+      "id": 1
+    },
+    {
+      "bulletinTitle": "title3",
+      "bulletinContent": "fsdfwerfdwfds fdsfsdfew sdfew sdcdsf ewf wef ",
+      "bulletinTime": "2018-01-18",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,2925 @@
+{
+    "code": 200,
+    "msg": "操作成功",
+    "data": [{
+        "id": 100000000,
+        "permissionName": "我的工作台",
+        "permissionCode": "workbench:manage",
+        "module": null,
+        "parentId": 0,
+        "description": null,
+        "permissionLevel": 1,
+        "sortNum": 1,
+        "createTime": 1512057600000,
+        "updateFields": {
+            "parentId": true,
+            "createTime": true,
+            "permissionLevel": true,
+            "permissionName": true,
+            "permissionCode": true,
+            "sortNum": true
+        },
+        "childPermList": [{
+            "id": 101000000,
+            "permissionName": "待办事项",
+            "permissionCode": "wait_process:manage",
+            "module": null,
+            "parentId": 100000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 1,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 102000000,
+            "permissionName": "历史查询",
+            "permissionCode": "history_process:manage",
+            "module": null,
+            "parentId": 100000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 2,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 103000000,
+            "permissionName": "我的销售额",
+            "permissionCode": "self_sales:manage",
+            "module": null,
+            "parentId": 100000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 3,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        }]
+    },
+    {
+        "id": 200000000,
+        "permissionName": "产品中心",
+        "permissionCode": "product_center:manage",
+        "module": null,
+        "parentId": 0,
+        "description": null,
+        "permissionLevel": 1,
+        "sortNum": 2,
+        "createTime": 1512057600000,
+        "updateFields": {
+            "parentId": true,
+            "createTime": true,
+            "permissionLevel": true,
+            "permissionName": true,
+            "permissionCode": true,
+            "sortNum": true
+        },
+        "childPermList": [{
+            "id": 201000000,
+            "permissionName": "本地产品库",
+            "permissionCode": "product:manage",
+            "module": null,
+            "parentId": 200000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 1,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": [{
+                "id": 201060000,
+                "permissionName": "查看产品",
+                "permissionCode": "product:list",
+                "module": null,
+                "parentId": 201000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 1,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 201010000,
+                "permissionName": "新增产品",
+                "permissionCode": "product:add",
+                "module": null,
+                "parentId": 201000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 2,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 201020000,
+                "permissionName": "修改产品",
+                "permissionCode": "product:modify",
+                "module": null,
+                "parentId": 201000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 3,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 201030000,
+                "permissionName": "修改产品类目",
+                "permissionCode": "product:category_modify",
+                "module": null,
+                "parentId": 201000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 4,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 201040000,
+                "permissionName": "停止产品销售",
+                "permissionCode": "product:stop_sale",
+                "module": null,
+                "parentId": 201000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 5,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 201050000,
+                "permissionName": "导出",
+                "permissionCode": "product:export",
+                "module": null,
+                "parentId": 201000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 6,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            }]
+        },
+        {
+            "id": 202000000,
+            "permissionName": "在线产品库",
+            "permissionCode": "online_product:manage",
+            "module": null,
+            "parentId": 200000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 2,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": [{
+                "id": 202050000,
+                "permissionName": "查看产品",
+                "permissionCode": "online_product:ama_list",
+                "module": null,
+                "parentId": 202000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 1,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 202010000,
+                "permissionName": "修改sku标注",
+                "permissionCode": "online_product:ama_mark_status",
+                "module": null,
+                "parentId": 202000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 2,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 202020000,
+                "permissionName": "修改价格",
+                "permissionCode": "online_product:ama_modify_price",
+                "module": null,
+                "parentId": 202000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 3,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 202030000,
+                "permissionName": "关联产品库",
+                "permissionCode": "online_product:ama_relate",
+                "module": null,
+                "parentId": 202000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 4,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 202040000,
+                "permissionName": "导入产品关联",
+                "permissionCode": "online_product:ama_import_relate",
+                "module": null,
+                "parentId": 202000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 5,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            }]
+        },
+        {
+            "id": 203000000,
+            "permissionName": "变体维护",
+            "permissionCode": "product_variant:manage",
+            "module": null,
+            "parentId": 200000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 3,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 204000000,
+            "permissionName": "在线产品日志",
+            "permissionCode": "online_product_log:manage",
+            "module": null,
+            "parentId": 200000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 4,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        }]
+    },
+    {
+        "id": 300000000,
+        "permissionName": "订单中心",
+        "permissionCode": "order_center:manage",
+        "module": null,
+        "parentId": 0,
+        "description": null,
+        "permissionLevel": 1,
+        "sortNum": 3,
+        "createTime": 1512057600000,
+        "updateFields": {
+            "parentId": true,
+            "createTime": true,
+            "permissionLevel": true,
+            "permissionName": true,
+            "permissionCode": true,
+            "sortNum": true
+        },
+        "childPermList": [{
+            "id": 301000000,
+            "permissionName": "订单查询",
+            "permissionCode": "order:ama_manage",
+            "module": null,
+            "parentId": 300000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 1,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": [{
+                "id": 301010000,
+                "permissionName": "已付款订单列表",
+                "permissionCode": "order:ama_wait_check_list",
+                "module": null,
+                "parentId": 301000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 1,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": [{
+                    "id": 301010100,
+                    "permissionName": "查看订单",
+                    "permissionCode": "order:ama_wait_check_show",
+                    "module": null,
+                    "parentId": 301010000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 1,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 301010200,
+                    "permissionName": "添加订单备注",
+                    "permissionCode": "order:ama_wait_check_remark_add",
+                    "module": null,
+                    "parentId": 301010000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 2,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 301010300,
+                    "permissionName": "导出",
+                    "permissionCode": "order:ama_wait_check_export",
+                    "module": null,
+                    "parentId": 301010000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 3,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 301010400,
+                    "permissionName": "标记刷单",
+                    "permissionCode": "order:ama_wait_check_click_farming_add",
+                    "module": null,
+                    "parentId": 301010000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 4,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                }]
+            },
+            {
+                "id": 301020000,
+                "permissionName": "待发货订单列表",
+                "permissionCode": "order:ama_wait_ship_list",
+                "module": null,
+                "parentId": 301000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 2,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": [{
+                    "id": 301020200,
+                    "permissionName": "查看订单",
+                    "permissionCode": "order:ama_wait_ship_show",
+                    "module": null,
+                    "parentId": 301020000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 1,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 301020100,
+                    "permissionName": "订单取消",
+                    "permissionCode": "order:ama_cancel",
+                    "module": null,
+                    "parentId": 301020000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 2,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 301020300,
+                    "permissionName": "添加订单备注",
+                    "permissionCode": "order:ama_wait_ship_remark_add",
+                    "module": null,
+                    "parentId": 301020000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 3,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 301020400,
+                    "permissionName": "导出",
+                    "permissionCode": "order:ama_wait_ship_export",
+                    "module": null,
+                    "parentId": 301020000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 4,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 301020500,
+                    "permissionName": "标记刷单",
+                    "permissionCode": "order:ama_wait_ship_click_farming_add",
+                    "module": null,
+                    "parentId": 301020000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 5,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                }]
+            },
+            {
+                "id": 301030000,
+                "permissionName": "已完成订单列表",
+                "permissionCode": "order:ama_compelete_list",
+                "module": null,
+                "parentId": 301000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 3,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": [{
+                    "id": 301030200,
+                    "permissionName": "查看订单",
+                    "permissionCode": "order:ama_compelete_show",
+                    "module": null,
+                    "parentId": 301030000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 1,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 301030100,
+                    "permissionName": "订单退款",
+                    "permissionCode": "order:ama_refund",
+                    "module": null,
+                    "parentId": 301030000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 2,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 301030300,
+                    "permissionName": "添加订单备注",
+                    "permissionCode": "order:ama_compelete_remark_add",
+                    "module": null,
+                    "parentId": 301030000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 3,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 301030400,
+                    "permissionName": "导出",
+                    "permissionCode": "order:ama_compelete_export",
+                    "module": null,
+                    "parentId": 301030000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 4,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 301030500,
+                    "permissionName": "标记刷单",
+                    "permissionCode": "order:ama_compelete_click_farming_add",
+                    "module": null,
+                    "parentId": 301030000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 5,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                }]
+            },
+            {
+                "id": 301040000,
+                "permissionName": "全部订单列表",
+                "permissionCode": "order:ama_all_list",
+                "module": null,
+                "parentId": 301000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 4,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": [{
+                    "id": 301040100,
+                    "permissionName": "查看订单",
+                    "permissionCode": "order:ama_all_show",
+                    "module": null,
+                    "parentId": 301040000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 1,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 301040300,
+                    "permissionName": "导出",
+                    "permissionCode": "order:ama_all_export",
+                    "module": null,
+                    "parentId": 301040000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 2,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 301040200,
+                    "permissionName": "标记刷单",
+                    "permissionCode": "order:ama_all_click_farming_add",
+                    "module": null,
+                    "parentId": 301040000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 3,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                }]
+            }]
+        }]
+    },
+    {
+        "id": 400000000,
+        "permissionName": "仓储物流中心",
+        "permissionCode": "storage_center:manage",
+        "module": null,
+        "parentId": 0,
+        "description": null,
+        "permissionLevel": 1,
+        "sortNum": 4,
+        "createTime": 1512057600000,
+        "updateFields": {
+            "parentId": true,
+            "createTime": true,
+            "permissionLevel": true,
+            "permissionName": true,
+            "permissionCode": true,
+            "sortNum": true
+        },
+        "childPermList": [{
+            "id": 401000000,
+            "permissionName": "本地库存",
+            "permissionCode": "local_storage:manage",
+            "module": null,
+            "parentId": 400000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 1,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 402000000,
+            "permissionName": "FBA库存",
+            "permissionCode": "fba_storage:manage",
+            "module": null,
+            "parentId": 400000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 2,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": [{
+                "id": 402010000,
+                "permissionName": "查看库存",
+                "permissionCode": "fba_storage:list",
+                "module": null,
+                "parentId": 402000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 1,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            }]
+        },
+        {
+            "id": 403000000,
+            "permissionName": "备货档案",
+            "permissionCode": "inventory_file:manage",
+            "module": null,
+            "parentId": 400000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 3,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 404000000,
+            "permissionName": "采购日记",
+            "permissionCode": "purchase:manage",
+            "module": null,
+            "parentId": 400000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 4,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 405000000,
+            "permissionName": "FBA头程",
+            "permissionCode": "fba_first_leg:manage",
+            "module": null,
+            "parentId": 400000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 5,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        }]
+    },
+    {
+        "id": 500000000,
+        "permissionName": "产品开发中心",
+        "permissionCode": "product_devp_center:manage",
+        "module": null,
+        "parentId": 0,
+        "description": null,
+        "permissionLevel": 1,
+        "sortNum": 5,
+        "createTime": 1512057600000,
+        "updateFields": {
+            "parentId": true,
+            "createTime": true,
+            "permissionLevel": true,
+            "permissionName": true,
+            "permissionCode": true,
+            "sortNum": true
+        },
+        "childPermList": [{
+            "id": 501000000,
+            "permissionName": "产品开发档案",
+            "permissionCode": "product_devp_file:manage",
+            "module": null,
+            "parentId": 500000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 1,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 502000000,
+            "permissionName": "产品开发测算",
+            "permissionCode": "product_devp_estimate:manage",
+            "module": null,
+            "parentId": 500000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 2,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": [{
+                "id": 502070000,
+                "permissionName": "新增产品",
+                "permissionCode": "product_devp_estimate:add",
+                "module": null,
+                "parentId": 502000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 1,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 502010000,
+                "permissionName": "查看列表",
+                "permissionCode": "product_devp_estimate:list",
+                "module": null,
+                "parentId": 502000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 2,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 502020000,
+                "permissionName": "查���产品市场容量",
+                "permissionCode": "product_devp_estimate:show_shichangrongliang",
+                "module": null,
+                "parentId": 502000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 3,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 502030000,
+                "permissionName": "查看产品定价分析",
+                "permissionCode": "product_devp_estimate:show_dingjiafenxi",
+                "module": null,
+                "parentId": 502000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 4,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 502040000,
+                "permissionName": "查看产品评论情况",
+                "permissionCode": "product_devp_estimate:show_pinglun",
+                "module": null,
+                "parentId": 502000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 5,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 502050000,
+                "permissionName": "查看产品渗透难易",
+                "permissionCode": "product_devp_estimate:show_shentounanyi",
+                "module": null,
+                "parentId": 502000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 6,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 502060000,
+                "permissionName": "删除产品",
+                "permissionCode": "product_devp_estimate:delete",
+                "module": null,
+                "parentId": 502000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 7,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            }]
+        }]
+    },
+    {
+        "id": 600000000,
+        "permissionName": "客户服务中心",
+        "permissionCode": "customer_service_center:manage",
+        "module": null,
+        "parentId": 0,
+        "description": null,
+        "permissionLevel": 1,
+        "sortNum": 6,
+        "createTime": 1512057600000,
+        "updateFields": {
+            "parentId": true,
+            "createTime": true,
+            "permissionLevel": true,
+            "permissionName": true,
+            "permissionCode": true,
+            "sortNum": true
+        },
+        "childPermList": [{
+            "id": 601000000,
+            "permissionName": "群发客户邮件",
+            "permissionCode": "customer_batch_mail:manage",
+            "module": null,
+            "parentId": 600000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 1,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 602000000,
+            "permissionName": "客户往来记录",
+            "permissionCode": "customer_mail_log:manage",
+            "module": null,
+            "parentId": 600000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 2,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": [{
+                "id": 602010000,
+                "permissionName": "查看列表",
+                "permissionCode": "customer_mail_log:list",
+                "module": null,
+                "parentId": 602000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 1,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 602020000,
+                "permissionName": "查看详情",
+                "permissionCode": "customer_mail_log:show",
+                "module": null,
+                "parentId": 602000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 2,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            }]
+        },
+        {
+            "id": 603000000,
+            "permissionName": "客服参数设置",
+            "permissionCode": "customer_service_param:manage",
+            "module": null,
+            "parentId": 600000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 3,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 604000000,
+            "permissionName": "店铺客服邮箱设置",
+            "permissionCode": "shop_service_mail:manage",
+            "module": null,
+            "parentId": 600000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 4,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": [{
+                "id": 604010000,
+                "permissionName": "查看列表",
+                "permissionCode": "shop_service_mail:list",
+                "module": null,
+                "parentId": 604000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 1,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 604020000,
+                "permissionName": "新增邮箱配置",
+                "permissionCode": "shop_service_mail:add",
+                "module": null,
+                "parentId": 604000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 2,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 604030000,
+                "permissionName": "修改邮箱配置",
+                "permissionCode": "shop_service_mail:modify",
+                "module": null,
+                "parentId": 604000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 3,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 604040000,
+                "permissionName": "删除邮箱配置",
+                "permissionCode": "shop_service_mail:delete",
+                "module": null,
+                "parentId": 604000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 4,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            }]
+        }]
+    },
+    {
+        "id": 700000000,
+        "permissionName": "运营支持中心",
+        "permissionCode": "operate_center:manage",
+        "module": null,
+        "parentId": 0,
+        "description": null,
+        "permissionLevel": 1,
+        "sortNum": 7,
+        "createTime": 1512057600000,
+        "updateFields": {
+            "parentId": true,
+            "createTime": true,
+            "permissionLevel": true,
+            "permissionName": true,
+            "permissionCode": true,
+            "sortNum": true
+        },
+        "childPermList": [{
+            "id": 701000000,
+            "permissionName": "广告投放",
+            "permissionCode": "advertisement:manage",
+            "module": null,
+            "parentId": 700000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 1,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 702000000,
+            "permissionName": "亚马逊官邮",
+            "permissionCode": "ama_gov_mail:manage",
+            "module": null,
+            "parentId": 700000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 2,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 703000000,
+            "permissionName": "反跟卖行动",
+            "permissionCode": "listing_follow:manage",
+            "module": null,
+            "parentId": 700000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 3,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 704000000,
+            "permissionName": "Review监控",
+            "permissionCode": "review_monitor:manage",
+            "module": null,
+            "parentId": 700000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 4,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": [{
+                "id": 704010000,
+                "permissionName": "查看列表",
+                "permissionCode": "review_monitor:list",
+                "module": null,
+                "parentId": 704000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 1,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            }]
+        },
+        {
+            "id": 705000000,
+            "permissionName": "Feedback监控",
+            "permissionCode": "feedback_monitor:manage",
+            "module": null,
+            "parentId": 700000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 5,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": [{
+                "id": 705010000,
+                "permissionName": "查看列表",
+                "permissionCode": "feedback_monitor:list",
+                "module": null,
+                "parentId": 705000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 1,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            }]
+        },
+        {
+            "id": 706000000,
+            "permissionName": "QA监控",
+            "permissionCode": "qa_monitor:manage",
+            "module": null,
+            "parentId": 700000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 6,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 707000000,
+            "permissionName": "汇率维护",
+            "permissionCode": "exchange_rate:manage",
+            "module": null,
+            "parentId": 700000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 7,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": [{
+                "id": 707010000,
+                "permissionName": "当前汇率",
+                "permissionCode": "exchange_rate_current:manage",
+                "module": null,
+                "parentId": 707000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 1,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": [{
+                    "id": 707010100,
+                    "permissionName": "查看列表",
+                    "permissionCode": "exchange_rate_current:list",
+                    "module": null,
+                    "parentId": 707010000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 1,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 707010200,
+                    "permissionName": "修改汇率",
+                    "permissionCode": "exchange_rate_current:modify",
+                    "module": null,
+                    "parentId": 707010000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 2,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                }]
+            },
+            {
+                "id": 707020000,
+                "permissionName": "维护历史",
+                "permissionCode": "exchange_rate_history:manage",
+                "module": null,
+                "parentId": 707000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 2,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": [{
+                    "id": 707020100,
+                    "permissionName": "查看列表",
+                    "permissionCode": "exchange_rate_history:list",
+                    "module": null,
+                    "parentId": 707020000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 1,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                }]
+            }]
+        },
+        {
+            "id": 708000000,
+            "permissionName": "异常商品",
+            "permissionCode": "online_product_outlier:manage",
+            "module": null,
+            "parentId": 700000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 8,
+            "createTime": 1514531798000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": [{
+                "id": 708010000,
+                "permissionName": "异常中",
+                "permissionCode": "online_product_outlier:manage_wait_process",
+                "module": null,
+                "parentId": 708000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 1,
+                "createTime": 1514531799000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": [{
+                    "id": 708010100,
+                    "permissionName": "查看列表",
+                    "permissionCode": "online_product_outlier:list_wait_process",
+                    "module": null,
+                    "parentId": 708010000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 1,
+                    "createTime": 1514531799000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 708010200,
+                    "permissionName": "处理",
+                    "permissionCode": "online_product_outlier:process",
+                    "module": null,
+                    "parentId": 708010000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 2,
+                    "createTime": 1514531799000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                }]
+            },
+            {
+                "id": 708020000,
+                "permissionName": "已恢复",
+                "permissionCode": "online_product_outlier:manage_processed",
+                "module": null,
+                "parentId": 708000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 2,
+                "createTime": 1514531799000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": [{
+                    "id": 708020100,
+                    "permissionName": "查看列表",
+                    "permissionCode": "online_product_outlier:list_processed",
+                    "module": null,
+                    "parentId": 708020000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 1,
+                    "createTime": 1514531799000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                }]
+            }]
+        }]
+    },
+    {
+        "id": 800000000,
+        "permissionName": "数据分析中心",
+        "permissionCode": "data_support:manage",
+        "module": null,
+        "parentId": 0,
+        "description": null,
+        "permissionLevel": 1,
+        "sortNum": 8,
+        "createTime": 1512057600000,
+        "updateFields": {
+            "parentId": true,
+            "createTime": true,
+            "permissionLevel": true,
+            "permissionName": true,
+            "permissionCode": true,
+            "sortNum": true
+        },
+        "childPermList": [{
+            "id": 807000000,
+            "permissionName": "实时销量",
+            "permissionCode": "shop_prduce_salse:manage",
+            "module": null,
+            "parentId": 800000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 1,
+            "createTime": 1514531799000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": [{
+                "id": 807010000,
+                "permissionName": "查看���表",
+                "permissionCode": "shop_prduce_salse:list",
+                "module": null,
+                "parentId": 807000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 1,
+                "createTime": 1514531799000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 807020000,
+                "permissionName": "查看详情",
+                "permissionCode": "shop_prduce_salse:show",
+                "module": null,
+                "parentId": 807000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 2,
+                "createTime": 1514531799000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 807030000,
+                "permissionName": "查看趋势",
+                "permissionCode": "shop_prduce_salse:show_trend",
+                "module": null,
+                "parentId": 807000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 3,
+                "createTime": 1514531799000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            }]
+        },
+        {
+            "id": 801000000,
+            "permissionName": "订单报告",
+            "permissionCode": "order_analyze_data:manage",
+            "module": null,
+            "parentId": 800000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 2,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 802000000,
+            "permissionName": "产品报告",
+            "permissionCode": "product_analyze_data:manage",
+            "module": null,
+            "parentId": 800000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 3,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 803000000,
+            "permissionName": "库存报告",
+            "permissionCode": "storage_analyze_data:manage",
+            "module": null,
+            "parentId": 800000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 4,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 804000000,
+            "permissionName": "店铺报告",
+            "permissionCode": "shop_analyze_data:manage",
+            "module": null,
+            "parentId": 800000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 5,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 805000000,
+            "permissionName": "人员业绩报告",
+            "permissionCode": "sales_performance_data:manage",
+            "module": null,
+            "parentId": 800000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 6,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 806000000,
+            "permissionName": "亚马逊财报",
+            "permissionCode": "corporate_performance_data:manage",
+            "module": null,
+            "parentId": 800000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 7,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": [{
+                "id": 806010000,
+                "permissionName": "查看列表",
+                "permissionCode": "corporate_performance_data:list",
+                "module": null,
+                "parentId": 806000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 1,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            },
+            {
+                "id": 806020000,
+                "permissionName": "查看详情",
+                "permissionCode": "corporate_performance_data:show",
+                "module": null,
+                "parentId": 806000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 2,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            }]
+        },
+        {
+            "id": 808000000,
+            "permissionName": "退货情况",
+            "permissionCode": "return_order:ama_manage",
+            "module": null,
+            "parentId": 800000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 8,
+            "createTime": 1516106245000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": [{
+                "id": 808010000,
+                "permissionName": "查看列表",
+                "permissionCode": "return_order:ama_list",
+                "module": null,
+                "parentId": 808000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 1,
+                "createTime": 1516106245000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": null
+            }]
+        }]
+    },
+    {
+        "id": 900000000,
+        "permissionName": "通知平台",
+        "permissionCode": "message_center:manage",
+        "module": null,
+        "parentId": 0,
+        "description": null,
+        "permissionLevel": 1,
+        "sortNum": 9,
+        "createTime": 1512057600000,
+        "updateFields": {
+            "parentId": true,
+            "createTime": true,
+            "permissionLevel": true,
+            "permissionName": true,
+            "permissionCode": true,
+            "sortNum": true
+        },
+        "childPermList": [{
+            "id": 901000000,
+            "permissionName": "语音总控参数",
+            "permissionCode": "voice_service_param:manage",
+            "module": null,
+            "parentId": 900000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 1,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 902000000,
+            "permissionName": "发件服务器设置",
+            "permissionCode": "message_service_param:manage",
+            "module": null,
+            "parentId": 900000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 2,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        }]
+    },
+    {
+        "id": 1000000000,
+        "permissionName": "知识库",
+        "permissionCode": "wiki:manage",
+        "module": null,
+        "parentId": 0,
+        "description": null,
+        "permissionLevel": 1,
+        "sortNum": 10,
+        "createTime": 1512057600000,
+        "updateFields": {
+            "parentId": true,
+            "createTime": true,
+            "permissionLevel": true,
+            "permissionName": true,
+            "permissionCode": true,
+            "sortNum": true
+        },
+        "childPermList": null
+    },
+    {
+        "id": 1100000000,
+        "permissionName": "系统设置",
+        "permissionCode": "system_setting:all",
+        "module": null,
+        "parentId": 0,
+        "description": null,
+        "permissionLevel": 1,
+        "sortNum": 11,
+        "createTime": 1512057600000,
+        "updateFields": {
+            "parentId": true,
+            "createTime": true,
+            "permissionLevel": true,
+            "permissionName": true,
+            "permissionCode": true,
+            "sortNum": true
+        },
+        "childPermList": [{
+            "id": 1101000000,
+            "permissionName": "爬虫总控",
+            "permissionCode": "crawler:manage",
+            "module": null,
+            "parentId": 1100000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 1,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 1102000000,
+            "permissionName": "大数据总控",
+            "permissionCode": "big_data:manage",
+            "module": null,
+            "parentId": 1100000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 2,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": null
+        },
+        {
+            "id": 1103000000,
+            "permissionName": "ERP总控",
+            "permissionCode": "erp_setting:manage",
+            "module": null,
+            "parentId": 1100000000,
+            "description": null,
+            "permissionLevel": 2,
+            "sortNum": 3,
+            "createTime": 1512057600000,
+            "updateFields": {
+                "parentId": true,
+                "createTime": true,
+                "permissionLevel": true,
+                "permissionName": true,
+                "permissionCode": true,
+                "sortNum": true
+            },
+            "childPermList": [{
+                "id": 1103010000,
+                "permissionName": "主用户管理",
+                "permissionCode": "member:main_manage",
+                "module": null,
+                "parentId": 1103000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 1,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": [{
+                    "id": 1103010500,
+                    "permissionName": "查看用户",
+                    "permissionCode": "member:main_list",
+                    "module": null,
+                    "parentId": 1103010000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 1,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 1103010100,
+                    "permissionName": "新增用户",
+                    "permissionCode": "member:main_add",
+                    "module": null,
+                    "parentId": 1103010000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 2,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 1103010200,
+                    "permissionName": "修改用户",
+                    "permissionCode": "member:main_modify",
+                    "module": null,
+                    "parentId": 1103010000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 3,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 1103010300,
+                    "permissionName": "重置密码",
+                    "permissionCode": "member:main_reset_pwd",
+                    "module": null,
+                    "parentId": 1103010000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 4,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 1103010400,
+                    "permissionName": "启用/停用用户",
+                    "permissionCode": "member:main_active",
+                    "module": null,
+                    "parentId": 1103010000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 5,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                }]
+            },
+            {
+                "id": 1103020000,
+                "permissionName": "子用户管理",
+                "permissionCode": "member:sub_manage",
+                "module": null,
+                "parentId": 1103000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 2,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": [{
+                    "id": 1103020500,
+                    "permissionName": "查看子用户",
+                    "permissionCode": "member:sub_list",
+                    "module": null,
+                    "parentId": 1103020000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 1,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 1103020100,
+                    "permissionName": "新增子用户",
+                    "permissionCode": "member:sub_add",
+                    "module": null,
+                    "parentId": 1103020000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 2,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 1103020200,
+                    "permissionName": "修改子用户",
+                    "permissionCode": "member:sub_modify",
+                    "module": null,
+                    "parentId": 1103020000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 3,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 1103020300,
+                    "permissionName": "启用/停用子用户",
+                    "permissionCode": "member:sub_active",
+                    "module": null,
+                    "parentId": 1103020000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 4,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 1103020400,
+                    "permissionName": "重置密码",
+                    "permissionCode": "member:sub_reset_pwd",
+                    "module": null,
+                    "parentId": 1103020000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 5,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                }]
+            },
+            {
+                "id": 1103030000,
+                "permissionName": "角色管理",
+                "permissionCode": "member:role_manage",
+                "module": null,
+                "parentId": 1103000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 3,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": [{
+                    "id": 1103030400,
+                    "permissionName": "查看角色",
+                    "permissionCode": "member:role_list",
+                    "module": null,
+                    "parentId": 1103030000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 1,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 1103030100,
+                    "permissionName": "新增角色",
+                    "permissionCode": "member:role_add",
+                    "module": null,
+                    "parentId": 1103030000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 2,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 1103030200,
+                    "permissionName": "修改角色",
+                    "permissionCode": "member:role_modify",
+                    "module": null,
+                    "parentId": 1103030000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 3,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 1103030300,
+                    "permissionName": "删除角色",
+                    "permissionCode": "member:role_delete",
+                    "module": null,
+                    "parentId": 1103030000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 4,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                }]
+            },
+            {
+                "id": 1103040000,
+                "permissionName": "公司管理",
+                "permissionCode": "member:company_manage",
+                "module": null,
+                "parentId": 1103000000,
+                "description": null,
+                "permissionLevel": 3,
+                "sortNum": 4,
+                "createTime": 1512057600000,
+                "updateFields": {
+                    "parentId": true,
+                    "createTime": true,
+                    "permissionLevel": true,
+                    "permissionName": true,
+                    "permissionCode": true,
+                    "sortNum": true
+                },
+                "childPermList": [{
+                    "id": 1103040600,
+                    "permissionName": "查看公司",
+                    "permissionCode": "member:company_list",
+                    "module": null,
+                    "parentId": 1103040000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 1,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 1103040100,
+                    "permissionName": "新增公司",
+                    "permissionCode": "member:company_add",
+                    "module": null,
+                    "parentId": 1103040000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 2,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 1103040200,
+                    "permissionName": "修改公司",
+                    "permissionCode": "member:company_modify",
+                    "module": null,
+                    "parentId": 1103040000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 3,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 1103040300,
+                    "permissionName": "删除公司",
+                    "permissionCode": "member:company_delete",
+                    "module": null,
+                    "parentId": 1103040000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 4,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": null
+                },
+                {
+                    "id": 1103040400,
+                    "permissionName": "店铺管理",
+                    "permissionCode": "member:company_shop_manage",
+                    "module": null,
+                    "parentId": 1103040000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 5,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": [{
+                        "id": 1103040405,
+                        "permissionName": "查看店铺",
+                        "permissionCode": "member:company_shop_list",
+                        "module": null,
+                        "parentId": 1103040400,
+                        "description": null,
+                        "permissionLevel": 5,
+                        "sortNum": 1,
+                        "createTime": 1512057600000,
+                        "updateFields": {
+                            "parentId": true,
+                            "createTime": true,
+                            "permissionLevel": true,
+                            "permissionName": true,
+                            "permissionCode": true,
+                            "sortNum": true
+                        },
+                        "childPermList": null
+                    },
+                    {
+                        "id": 1103040401,
+                        "permissionName": "新增店铺",
+                        "permissionCode": "member:company_shop_add",
+                        "module": null,
+                        "parentId": 1103040400,
+                        "description": null,
+                        "permissionLevel": 5,
+                        "sortNum": 2,
+                        "createTime": 1512057600000,
+                        "updateFields": {
+                            "parentId": true,
+                            "createTime": true,
+                            "permissionLevel": true,
+                            "permissionName": true,
+                            "permissionCode": true,
+                            "sortNum": true
+                        },
+                        "childPermList": null
+                    },
+                    {
+                        "id": 1103040402,
+                        "permissionName": "修改店铺",
+                        "permissionCode": "member:company_shop_modify",
+                        "module": null,
+                        "parentId": 1103040400,
+                        "description": null,
+                        "permissionLevel": 5,
+                        "sortNum": 3,
+                        "createTime": 1512057600000,
+                        "updateFields": {
+                            "parentId": true,
+                            "createTime": true,
+                            "permissionLevel": true,
+                            "permissionName": true,
+                            "permissionCode": true,
+                            "sortNum": true
+                        },
+                        "childPermList": null
+                    },
+                    {
+                        "id": 1103040403,
+                        "permissionName": "删除店铺",
+                        "permissionCode": "member:company_shop_delete",
+                        "module": null,
+                        "parentId": 1103040400,
+                        "description": null,
+                        "permissionLevel": 5,
+                        "sortNum": 4,
+                        "createTime": 1512057600000,
+                        "updateFields": {
+                            "parentId": true,
+                            "createTime": true,
+                            "permissionLevel": true,
+                            "permissionName": true,
+                            "permissionCode": true,
+                            "sortNum": true
+                        },
+                        "childPermList": null
+                    },
+                    {
+                        "id": 1103040404,
+                        "permissionName": "启用/停用店铺",
+                        "permissionCode": "member:company_shop_active",
+                        "module": null,
+                        "parentId": 1103040400,
+                        "description": null,
+                        "permissionLevel": 5,
+                        "sortNum": 5,
+                        "createTime": 1512057600000,
+                        "updateFields": {
+                            "parentId": true,
+                            "createTime": true,
+                            "permissionLevel": true,
+                            "permissionName": true,
+                            "permissionCode": true,
+                            "sortNum": true
+                        },
+                        "childPermList": null
+                    }]
+                },
+                {
+                    "id": 1103040500,
+                    "permissionName": "开发者账号管理",
+                    "permissionCode": "ama_devp:manage",
+                    "module": null,
+                    "parentId": 1103040000,
+                    "description": null,
+                    "permissionLevel": 4,
+                    "sortNum": 6,
+                    "createTime": 1512057600000,
+                    "updateFields": {
+                        "parentId": true,
+                        "createTime": true,
+                        "permissionLevel": true,
+                        "permissionName": true,
+                        "permissionCode": true,
+                        "sortNum": true
+                    },
+                    "childPermList": [{
+                        "id": 1103040504,
+                        "permissionName": "查看开发者信息",
+                        "permissionCode": "ama_devp:list",
+                        "module": null,
+                        "parentId": 1103040500,
+                        "description": null,
+                        "permissionLevel": 5,
+                        "sortNum": 1,
+                        "createTime": 1512057600000,
+                        "updateFields": {
+                            "parentId": true,
+                            "createTime": true,
+                            "permissionLevel": true,
+                            "permissionName": true,
+                            "permissionCode": true,
+                            "sortNum": true
+                        },
+                        "childPermList": null
+                    },
+                    {
+                        "id": 1103040501,
+                        "permissionName": "新增开发者信息",
+                        "permissionCode": "ama_devp:add",
+                        "module": null,
+                        "parentId": 1103040500,
+                        "description": null,
+                        "permissionLevel": 5,
+                        "sortNum": 2,
+                        "createTime": 1512057600000,
+                        "updateFields": {
+                            "parentId": true,
+                            "createTime": true,
+                            "permissionLevel": true,
+                            "permissionName": true,
+                            "permissionCode": true,
+                            "sortNum": true
+                        },
+                        "childPermList": null
+                    },
+                    {
+                        "id": 1103040502,
+                        "permissionName": "修改开发者信息",
+                        "permissionCode": "ama_devp:modify",
+                        "module": null,
+                        "parentId": 1103040500,
+                        "description": null,
+                        "permissionLevel": 5,
+                        "sortNum": 3,
+                        "createTime": 1512057600000,
+                        "updateFields": {
+                            "parentId": true,
+                            "createTime": true,
+                            "permissionLevel": true,
+                            "permissionName": true,
+                            "permissionCode": true,
+                            "sortNum": true
+                        },
+                        "childPermList": null
+                    },
+                    {
+                        "id": 1103040503,
+                        "permissionName": "删除开发者信息",
+                        "permissionCode": "ama_devp:delete",
+                        "module": null,
+                        "parentId": 1103040500,
+                        "description": null,
+                        "permissionLevel": 5,
+                        "sortNum": 4,
+                        "createTime": 1512057600000,
+                        "updateFields": {
+                            "parentId": true,
+                            "createTime": true,
+                            "permissionLevel": true,
+                            "permissionName": true,
+                            "permissionCode": true,
+                            "sortNum": true
+                        },
+                        "childPermList": null
+                    }]
+                }]
+            }]
+        }]
+    }]
+}
