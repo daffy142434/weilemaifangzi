@@ -1,0 +1,377 @@
+@primary: #409EFF;
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  .el-button, .el-checkbox, .el-step__icon-inner{
+    -webkit-user-select: initial;
+    -moz-user-select: initial;
+  }
+}
+::-webkit-scrollbar {
+  z-index: 11;
+  width: 6px;
+}
+::-webkit-scrollbar-corner {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  width: 6px;
+  background: #b4bccc;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-track-piece {
+  background: #fff;
+  width: 6px;
+}
+a {
+  cursor: pointer;
+}
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.primary {
+  color: #409EFF;
+}
+.success {
+  color: #67C23A;
+}
+.warning {
+  color: #E6A23C;
+}
+.danger {
+  color: #F56C6C;
+}
+.info {
+  color: #909399;
+}
+#app {
+  height: 100%;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.gray {
+  color: #909399 !important;
+}
+.mb0 {
+  margin-bottom: 0 !important;
+}
+.red {
+  color: #F56C6C !important;
+}
+.cb {
+  clear: both;
+}
+.page-title {
+  &:before {
+    width: 6px;
+    height: 18px;
+    margin-right: 4px;
+    display: inline-block;
+    vertical-align: -3px;
+    background: #20a0ff;
+    content: ' ';
+  }
+  padding: 15px 15px 0;
+  margin: -15px -15px 15px;
+  a {
+    font-size: 14px;
+    color: #20A0FF;
+    cursor: pointer;
+  }
+}
+.search-bar {
+  padding: 10px 15px;
+  border: #eee 1px solid;
+  background: #fcfcfc;
+  overflow: hidden;
+  margin-bottom: 15px;
+  .el-form {
+    margin-top: 0;
+  }
+  .el-form-item {
+    margin-bottom: 0;
+  }
+  .el-input {
+    width: 160px;
+  }
+}
+.multi-row-search {
+  .el-form-item {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+  .el-form-item__label {
+    width: 110px;
+  }
+  .el-input {
+    width: 180px;
+  }
+}
+.tools-bar {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  .el-button--small {
+    position: relative;
+    top: -2px;
+  }
+}
+.pagination-bar {
+  margin-top: 15px;
+  text-align: right;
+}
+
+.heavy-form {
+  .el-form-item__content {
+    &>.el-input {
+      &>.el-input__inner {
+        &[readonly] {
+          border-color: transparent;
+          &+.el-input-group__append {
+            border-color: transparent;
+          }
+        }
+        background: none;
+        border-width: 0 0 1px;
+        border-radius: 0;
+      }
+      &>.el-input-group__append {
+        background: none;
+        border-width: 0 0 1px;
+        border-radius: 0;
+      }
+    }
+  }
+}
+.click-farming-order {
+  color: #FF4949;
+}
+.icon-amazon {
+  background: url('../img/amazonicon.png') center center no-repeat;
+  background-size: cover;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.icon-clear {
+  background: url('../img/clear.png') center center no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.icon-alarm {
+  background: url('../img/alarm.png') center center no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.icon-monitoring {
+  background: url('../img/monitoring.png') center center no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.icon-point {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  &-success {
+    background: #67C23A;
+  }
+}
+.national-flag {
+  display: inline-block;
+  width: 16px;
+  height: 11px;
+  vertical-align: middle;
+  &-us {
+    background: url("../img/nationalFlag/us.png");
+  }
+  &-uk {
+    background: url("../img/nationalFlag/uk.png");
+  }
+  &-de {
+    background: url("../img/nationalFlag/de.png");
+  }
+  &-fr {
+    background: url("../img/nationalFlag/fr.png");
+  }
+  &-jp {
+    background: url("../img/nationalFlag/jp.png");
+  }
+  &-ca {
+    background: url("../img/nationalFlag/ca.png");
+  }
+  &-cn {
+    background: url("../img/nationalFlag/cn.png");
+  }
+  &-it {
+    background: url("../img/nationalFlag/it.png");
+  }
+  &-es {
+    background: url("../img/nationalFlag/es.png");
+  }
+  &-in {
+    background: url("../img/nationalFlag/in.png");
+  }
+  &-mx {
+    background: url("../img/nationalFlag/mx.png");
+  }
+  &-br {
+    background: url("../img/nationalFlag/br.png");
+  }
+}
+.dialog-list-form {
+  display: flex;
+  margin-bottom: -22px;
+  .dialog-list {
+    min-width: 600px;
+    max-width: 80%;
+  }
+  .dialog-form {
+    flex: 1;
+    padding-left: 20px;
+  }
+}
+.el-tag--primary {
+  &.tag-fill {
+    background: #409EFF;
+    color: #fff;
+  }
+}
+.el-tag--success {
+  &.tag-fill {
+    background: #67c23a;
+    color: #fff;
+  }
+}
+.el-tag--warning {
+  &.tag-fill {
+    background: #e6a23c;
+    color: #fff;
+  }
+}
+.el-tag--danger {
+  &.tag-fill {
+    background: #f56c6c;
+    color: #fff;
+  }
+}
+.el-tag--info {
+  &.tag-fill {
+    background: #909399;
+    color: #fff;
+  }
+}
+.el-pager li.active {
+  height: 28px;
+  border-radius: 5px;
+  background: #409EFF;
+  color: #fff;
+  min-width: 28px;
+  padding: 0 6px;
+}
+.el-table .cell {
+  line-height: 21px;
+}
+.el-table {
+  .el-table__body {
+    td {
+      .cell {
+        margin: -5px 0;
+        line-height: 22px;
+        .el-button--text {
+          padding: 0;
+          margin: 0 5px;
+        }
+      }
+      &.sku-column {
+        .cell {
+          margin: -7px 0;
+        }
+      }
+    }
+  }
+}
+.sku-column {
+  text-align: center;
+  font-size: 12px;
+  line-height: 0;
+  img {
+    height: 40px;
+  }
+  &-text {
+    line-height: 16px;
+    margin-top: -6px;
+  }
+  .icon-monitoring, .icon-alarm {
+    width: 16px;
+    height: 16px;
+    vertical-align: -3px;
+  }
+}
+.el-table--mini {
+  .sku-column {
+    .cell {
+      margin: -5px 0;
+    }
+  }
+}
+.el-upload {
+  .el-upload__input {
+    position: absolute;
+    left: -9999px;
+  }
+}
+.el-checkbox-group {
+  .el-checkbox, .el-checkbox+.el-checkbox {
+    margin-left: 0;
+    margin-right: 30px;
+  }
+}
+.el-table {
+  .el-table-column--selection {
+    .cell {
+      text-align: center;
+    }
+  }
+  .el-dropdown {
+    .el-icon-caret-bottom {
+      color: @primary;
+      width: 16px;
+      height: 16px;
+      line-height: 14px;
+      border: @primary 1px solid;
+      border-radius: 8px;
+      text-align: center;
+    }
+  }
+}
+.el-input-group__append {
+  .el-select {
+    min-width: 120px;
+  }
+}
+.el-form--label-top {
+  .el-form-item__label {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,9 @@
+﻿https://sellercentral.amazon.com/gp/site-metrics/report.html#&cols=/c0/c1/c2/c3/c4/c5/c6/c7/c8/c9/c10/c11/c12/c13/c14/c15&sortColumn=16&filterFromDate=2017-12-31&filterToDate=2018-01-31&fromDate=2017-12-31&toDate=2018-01-31&reportID=102:DetailSalesTrafficByChildItem&sortIsAscending=0&currentPage=0&dateUnit=1&viewDateUnits=ALL&runDate=
+https://sellercentral.amazon.com/gp/feedback-manager/view-all-feedback.html/ref=fb_fbmgr_vwallfb?ie=UTF8&dateRange=&descendingOrder=1&sortType=Date
+
+var ifr = document.createElement('iframe');
+ifr.src = '/sw/AccountInfo/MerchantToken/step/MerchantToken';
+ifr.onload = function() {
+	setTimeout(function() {console.log(ifr.contentWindow.$('.ng-binding').text()) });
+};
+document.body.appendChild(ifr);
